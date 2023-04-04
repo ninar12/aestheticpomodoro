@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'PlantinMTLightItalic';
+  src: url('./fonts/PlantinMTLightItalic.ttf') format('truetype');
+}
+body {
+  font-family: 'PlantinMTLightItalic', serif;
+}
+button {
+  border: none;
+  border-radius: 1px;
+  font-family: 'PlantinMTLightItalic', serif;
+  background: #ff00dd; 
+  font-size: 15px;
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+  transform: skew(-0.5deg, -2deg);
+  cursor: pointer;
+}
+button:hover {
+  background: #F75BB0
+}
+footer {
+  color: rgb(207, 207, 207);
+  text-align: center;
+  animation: preloader 1s ease-in-out alternate 0.6s infinite;
+  padding: 0px 100px;
+}
+@keyframes preloader {
+  100% { transform: scale(1.03); }
+}
